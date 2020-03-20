@@ -1,4 +1,5 @@
-# Summary
+# The Book Of Ambient Isotopy
 
-* [Introduction](README.md)
-
+- Dotfiles
+  * [Home Dir As Repo](dotfiles/home_dir_as_repo.md)
+* [NOTES](NOTES.md)

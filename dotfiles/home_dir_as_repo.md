@@ -30,16 +30,3 @@ git remote add origin git@github.com:arntzy/home.git
 git fetch
 git checkout -f master
 ```
-
-*** NOT TOTALLY SURE ABOUT THIS APPROACH YET ***
-```
-cd ~
-# Create an empty git repository in your home folder
-git init
-# Add the remote
-git remote add origin git@github.com:arntzy/home.git
-# Get the stuff from up there
-git fetch
-# This will overwrite any local files that also exist up on the remote, so be careful!
-git reset --hard origin/master
-```
